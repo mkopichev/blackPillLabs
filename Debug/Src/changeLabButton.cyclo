@@ -1,0 +1,7 @@
+../Src/../Inc/core_cm4.h:1626:22:NVIC_EnableIRQ	1
+../Src/../Inc/core_cm4.h:1637:22:NVIC_DisableIRQ	1
+../Src/../Inc/core_cm4.h:1790:22:NVIC_SystemReset	1
+../Src/changeLabButton.c:7:6:changeLabButtonDeinit	1
+../Src/changeLabButton.c:28:6:changeLabButtonInit	5
+../Src/changeLabButton.c:61:6:EXTI0_IRQHandler	1
+../Src/changeLabButton.c:68:6:TIM2_IRQHandler	3

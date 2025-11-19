@@ -1,0 +1,4 @@
+../Src/common.c:5:6:cpuFreqInit	10
+../Src/common.c:59:6:sysTickInit	5
+../Src/common.c:77:6:delayMs	3
+../Src/common.c:89:9:digitExtractor	3
