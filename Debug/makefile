@@ -59,8 +59,13 @@ all: main-build
 main-build: blackPillLabs.elf secondary-outputs
 
 # Tool invocations
+<<<<<<< HEAD
 blackPillLabs.elf blackPillLabs.map: $(OBJS) $(USER_OBJS) /Users/michael/Yandex.Disk.localized/progs/blackPillLabs/STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	arm-none-eabi-gcc -o "blackPillLabs.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/michael/Yandex.Disk.localized/progs/blackPillLabs/STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blackPillLabs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+=======
+blackPillLabs.elf blackPillLabs.map: $(OBJS) $(USER_OBJS) C:\Users\GET-5\STM32CubeIDE\workspace\blackPillLabs\STM32F401CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "blackPillLabs.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\GET-5\STM32CubeIDE\workspace\blackPillLabs\STM32F401CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blackPillLabs.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+>>>>>>> 9d8c7a80aee9e8e032d95a50dd17d5a8aacd60af
 	@echo 'Finished building target: $@'
 	@echo ' '
 
