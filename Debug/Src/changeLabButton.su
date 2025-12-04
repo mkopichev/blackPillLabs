@@ -1,0 +1,7 @@
+../Src/../Inc/core_cm4.h:1626:22:NVIC_EnableIRQ	16	static
+../Src/../Inc/core_cm4.h:1637:22:NVIC_DisableIRQ	16	static
+../Src/../Inc/core_cm4.h:1790:22:NVIC_SystemReset	4	static,ignoring_inline_asm
+../Src/changeLabButton.c:7:6:changeLabButtonDeinit	8	static
+../Src/changeLabButton.c:28:6:changeLabButtonInit	8	static
+../Src/changeLabButton.c:61:6:EXTI0_IRQHandler	4	static
+../Src/changeLabButton.c:68:6:TIM2_IRQHandler	8	static

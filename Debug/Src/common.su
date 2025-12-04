@@ -1,0 +1,4 @@
+../Src/common.c:5:6:cpuFreqInit	16	static,ignoring_inline_asm
+../Src/common.c:59:6:sysTickInit	4	static
+../Src/common.c:77:6:delayMs	24	static,ignoring_inline_asm
+../Src/common.c:89:9:digitExtractor	24	static

@@ -1,0 +1,14 @@
+../Src/../Inc/core_cm4.h:1626:22:NVIC_EnableIRQ	16	static
+../Src/../Inc/core_cm4.h:1637:22:NVIC_DisableIRQ	16	static
+../Src/lab2PwmAdc.c:17:6:lab2Deinit	8	static
+../Src/lab2PwmAdc.c:27:6:lab2Init	8	static
+../Src/lab2PwmAdc.c:38:6:lab2Execute	8	static
+../Src/lab2PwmAdc.c:49:6:lab2GpioDeinit	4	static
+../Src/lab2PwmAdc.c:59:6:lab2Tim3Deinit	8	static
+../Src/lab2PwmAdc.c:72:6:lab2AdcPotDeinit	4	static,ignoring_inline_asm
+../Src/lab2PwmAdc.c:85:6:lab2GpioInit	4	static
+../Src/lab2PwmAdc.c:102:6:lab2Tim3Init	8	static
+../Src/lab2PwmAdc.c:128:6:lab2AdcPotInit	4	static
+../Src/lab2PwmAdc.c:144:10:lab2PotReadRawValue	4	static,ignoring_inline_asm
+../Src/lab2PwmAdc.c:155:10:lab2PotGetAverageValue	16	static
+../Src/lab2PwmAdc.c:165:6:TIM3_IRQHandler	8	static

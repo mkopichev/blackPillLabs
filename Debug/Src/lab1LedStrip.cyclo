@@ -1,0 +1,6 @@
+../Src/lab1LedStrip.c:11:6:lab1Deinit	1
+../Src/lab1LedStrip.c:19:6:lab1Init	1
+../Src/lab1LedStrip.c:27:6:lab1Execute	6
+../Src/lab1LedStrip.c:44:6:lab1LedStripDeinit	1
+../Src/lab1LedStrip.c:52:6:lab1LedStripInit	1
+../Src/lab1LedStrip.c:66:6:lab1LedPosSwitch	15

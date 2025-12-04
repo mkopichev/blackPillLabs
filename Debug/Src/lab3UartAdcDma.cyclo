@@ -1,0 +1,14 @@
+../Src/../Inc/core_cm4.h:1626:22:NVIC_EnableIRQ	1
+../Src/../Inc/core_cm4.h:1637:22:NVIC_DisableIRQ	1
+../Src/lab3UartAdcDma.c:17:6:lab3Deinit	1
+../Src/lab3UartAdcDma.c:27:6:lab3Init	1
+../Src/lab3UartAdcDma.c:36:6:lab3Execute	2
+../Src/lab3UartAdcDma.c:54:6:lab3AdcReadSignals	2
+../Src/lab3UartAdcDma.c:66:6:lab3AdcGetFilteredData	2
+../Src/lab3UartAdcDma.c:79:6:lab3UartDeinit	1
+../Src/lab3UartAdcDma.c:89:6:lab3AdcDeinit	1
+../Src/lab3UartAdcDma.c:104:6:lab3DmaDeinit	1
+../Src/lab3UartAdcDma.c:117:6:lab3UartInit	5
+../Src/lab3UartAdcDma.c:143:6:lab3AdcInit	1
+../Src/lab3UartAdcDma.c:160:6:lab3DmaInit	1
+../Src/lab3UartAdcDma.c:176:6:DMA2_Stream0_IRQHandler	2
