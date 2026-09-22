@@ -7,6 +7,7 @@
 C_SRCS += \
 ../Src/changeLabButton.c \
 ../Src/common.c \
+../Src/i2c.c \
 ../Src/lab1LedStrip.c \
 ../Src/lab2PwmAdc.c \
 ../Src/lab3UartAdcDma.c \
@@ -19,6 +20,7 @@ C_SRCS += \
 OBJS += \
 ./Src/changeLabButton.o \
 ./Src/common.o \
+./Src/i2c.o \
 ./Src/lab1LedStrip.o \
 ./Src/lab2PwmAdc.o \
 ./Src/lab3UartAdcDma.o \
@@ -31,6 +33,7 @@ OBJS += \
 C_DEPS += \
 ./Src/changeLabButton.d \
 ./Src/common.d \
+./Src/i2c.d \
 ./Src/lab1LedStrip.d \
 ./Src/lab2PwmAdc.d \
 ./Src/lab3UartAdcDma.d \
@@ -48,7 +51,7 @@ Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/changeLabButton.cyclo ./Src/changeLabButton.d ./Src/changeLabButton.o ./Src/changeLabButton.su ./Src/common.cyclo ./Src/common.d ./Src/common.o ./Src/common.su ./Src/lab1LedStrip.cyclo ./Src/lab1LedStrip.d ./Src/lab1LedStrip.o ./Src/lab1LedStrip.su ./Src/lab2PwmAdc.cyclo ./Src/lab2PwmAdc.d ./Src/lab2PwmAdc.o ./Src/lab2PwmAdc.su ./Src/lab3UartAdcDma.cyclo ./Src/lab3UartAdcDma.d ./Src/lab3UartAdcDma.o ./Src/lab3UartAdcDma.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/multiFuncButton.cyclo ./Src/multiFuncButton.d ./Src/multiFuncButton.o ./Src/multiFuncButton.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/uart.cyclo ./Src/uart.d ./Src/uart.o ./Src/uart.su
+	-$(RM) ./Src/changeLabButton.cyclo ./Src/changeLabButton.d ./Src/changeLabButton.o ./Src/changeLabButton.su ./Src/common.cyclo ./Src/common.d ./Src/common.o ./Src/common.su ./Src/i2c.cyclo ./Src/i2c.d ./Src/i2c.o ./Src/i2c.su ./Src/lab1LedStrip.cyclo ./Src/lab1LedStrip.d ./Src/lab1LedStrip.o ./Src/lab1LedStrip.su ./Src/lab2PwmAdc.cyclo ./Src/lab2PwmAdc.d ./Src/lab2PwmAdc.o ./Src/lab2PwmAdc.su ./Src/lab3UartAdcDma.cyclo ./Src/lab3UartAdcDma.d ./Src/lab3UartAdcDma.o ./Src/lab3UartAdcDma.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/multiFuncButton.cyclo ./Src/multiFuncButton.d ./Src/multiFuncButton.o ./Src/multiFuncButton.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/uart.cyclo ./Src/uart.d ./Src/uart.o ./Src/uart.su
 
 .PHONY: clean-Src
 

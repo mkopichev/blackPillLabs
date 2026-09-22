@@ -1,5 +1,6 @@
 "./Src/changeLabButton.o"
 "./Src/common.o"
+"./Src/i2c.o"
 "./Src/lab1LedStrip.o"
 "./Src/lab2PwmAdc.o"
 "./Src/lab3UartAdcDma.o"

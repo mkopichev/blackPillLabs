@@ -28,6 +28,16 @@ int main(void) {
 	sysTickInit(); // configure systick
 	changeLabButtonInit();
 
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOCEN;
+	GPIOC->MODER |= GPIO_MODER_MODE13_0;
+
+	for (;;) {
+		if (GPIOA->IDR & (1 << 0))
+			GPIOC->ODR |= (1 << 13);  // LED on
+		else
+			GPIOC->ODR &= ~(1 << 13);
+	}
+
 	for (;;) {
 
 		switch (changeLabButtonPressCounter) {
@@ -48,7 +58,7 @@ int main(void) {
 				lab2Init();
 			}
 
- 			lab2Execute();
+			lab2Execute();
 			break;
 		case 3: // UART + DMA + ADC + temp.sens.
 			if (!lab3InitDone) {
